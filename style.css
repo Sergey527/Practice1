@@ -1,0 +1,231 @@
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Medium.woff') format('woff'),  url('fonts/Gilroy-Medium.woff2') format('woff2');
+    font-weight: 500;
+}
+
+@font-face {
+    font-family: 'Gilroy';
+    src: url('fonts/Gilroy-Bold.woff') format('woff'),  url('fonts/Gilroy-Bold.woff2') format('woff2');
+    font-weight: 700;
+}
+
+
+*, *:before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    scroll-behavior: smooth !important;
+}
+
+body {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Gilroy';
+    font-weight: 500;
+    font-size: 18px;
+
+}
+
+.container {
+    width: 940px;
+    margin: 0 auto;
+}
+
+.header-nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 0;
+}
+
+.header-link {
+    font-weight: 700;
+    color: #828282;
+    text-decoration: none;
+    transition: color 200ms linear;
+}
+
+.header-link:hover {
+    color:#5a5a5a
+}
+
+.intro {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    margin: 18px 0 50px;
+}
+
+.intro h1 {
+    font-size: 47px;
+    color: #070707;
+    font-weight: 700;
+
+    width: 15%;
+}
+
+.intro-text {
+    color: #070707;
+    font-weight: 700;
+    width: 17%;
+}
+
+.intro-link {
+    font-size: 16px;
+}
+
+.lang {
+    writing-mode: vertical-lr;
+    transform: rotate(180deg);
+    text-transform: uppercase;
+}
+
+.my-image {
+    margin-bottom: 100px
+}
+
+.about-me {
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    text-align: center;
+    padding: 120px 0;
+}
+
+.me-text {
+    margin: 35px auto 10px auto;
+    width: 485px;
+}
+
+.skill-title {
+    margin-bottom: 40px;
+}
+
+.container-skills {
+    width: 940px;
+    margin: 0 auto;
+    padding-top: 62px;
+    text-align: center;
+}
+
+.skill-text {
+    margin: 18px 0;
+}
+
+.programms {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    padding: 0 40px 100px;
+
+}
+
+.PS, .AI, .AAE, .figma {
+    margin-top: 90px;
+    display: block;
+}
+
+.prog-name {
+    text-align: center;
+    color: #828282;
+    font-size: 14px;
+    margin-top: 25px;
+    font-weight: 700;
+}
+
+.figma {
+    padding-top: 5px;
+}
+
+.skill-stars {
+    margin-top: 40px;
+}
+
+.skill-stars-figma {
+    margin-top: 53px;
+}
+
+.stars {
+    margin: 0 5px;
+}
+
+.portfolio {
+    margin: 0 auto;
+    background-color: #F6F6F6;
+    text-align: center;
+    padding-top: 120px;
+    padding-bottom: 10px;
+}
+
+.portfolio h1 {
+    margin-bottom: 45px;
+    font-size: 34px;
+}
+
+.portfolio-link {
+    margin-top: 45px;
+    margin-bottom: 100px;
+    font-size: 18px;
+}
+
+.portfolio-link a {
+    color: #070707
+}
+
+.footer {
+text-align: center;
+}
+
+.con-title {
+    margin-top: 114px;
+    font-size: 34px;
+}
+
+.con-text {
+    margin: 20px 0 16px;
+}
+
+.btn {
+    margin-top: 60px;
+    margin-bottom: 90px;
+}
+
+.con-btn {
+    background-color: #070707;
+    width: 180px;
+    height: 42px;
+    font-size: 18px;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20px;
+    text-decoration: none;
+    font-weight: 700;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
+.links {
+    border: none;
+}
+
+link {
+    border: none;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    border: none;
+    margin: 0 30px;
+}
+
+.footer-text {
+    margin-top: 60px;
+    margin-bottom: 123px;
+    font-size: 14px;
+    color: #828282;
+}
